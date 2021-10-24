@@ -1,0 +1,36 @@
+var nome_event =;
+
+console.log(`Qual será o nome do evento ${nome_event}`)
+
+function dataDoEvento() {
+    var data_event;
+    console.log(`Qual será a data do evento ? ${data_event}`)
+    
+    if( >= 21/08/2021){
+    console.log("essa data ja passou, reveja seu calendário, por favor !")
+    }else {
+    console.log("Vamos agendar seu evento.")
+    }
+}
+
+function idade() {
+    var idade =;
+    console.log(`qual a sua idade ${idade} ` )
+
+    if(idade >= 18) {
+    console.log("Voce pode marcar esse evento")
+     } else {
+    console.log("Desculpe-me no entanto voce não tem idade para realizar esse evento.")
+     }
+}
+
+function participantes() {
+    var participantes=;
+    console.log(`O evento ${nome_event} terá quantos participantes?`)
+
+    if(participnates >= 100){
+        console.log("Desculpme-me no entanto a quantidade de participantes excede a permitida.")
+    }else{
+        console.log("Seu evento está cadastrado, muito obrigado.")
+    }
+}
